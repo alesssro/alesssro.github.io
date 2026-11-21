@@ -11,6 +11,9 @@
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#14204a">
 <link rel="icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap">
 <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
@@ -22,7 +25,7 @@
     <a href="#juegos">Juegos</a>
     <a href="#instalar">Cómo instalar</a>
     <a href="#preguntas">Preguntas</a>
-    <a class="boton-kofi pequeno" data-kofi href="#apoyar">☕ Apóyame</a>
+    <a class="nav-apoyar" href="#apoyar">Apoyar</a>
   </nav>
 </header>
 
@@ -35,12 +38,13 @@
     <p class="entradilla">Traduzco juegos de todas las consolas que nunca llegaron en español: textos, menús, gráficos y, cuando hace falta, hasta los vídeos. Todo gratis y con un instalador que se usa con dos clics. Y con tu ayuda, el objetivo es llevarlos hasta una <a href="#proyecto">traducción profesional</a>.</p>
     <div class="acciones">
       <a class="boton" href="#juegos">Ver los juegos</a>
-      <a class="boton-kofi" data-kofi href="#apoyar">☕ Invítame a un café</a>
+      <a class="boton secundario" href="#proyecto">Conoce el objetivo</a>
     </div>
   </div>
 </section>
 
 <section id="proyecto" class="pasos proyecto">
+  <p class="rotulo">El proyecto</p>
   <h2>El objetivo: que estos clásicos tengan la traducción que merecen</h2>
   <p class="entradilla">Muchos de los mejores juegos de la historia nunca llegaron en castellano, y probablemente nunca lleguen. Estos parches son el primer paso: traducciones completas hechas con inteligencia artificial, gratis y listas para jugar desde hoy. Pero son solo el lienzo. El sueño es convertirlas, juego a juego, en traducciones profesionales, revisadas por traductores de verdad, con el cariño y la calidad que tendrían si se hubieran publicado oficialmente en España.</p>
   <ol>
@@ -49,10 +53,11 @@
     <li><h3>La meta: el juego definitivo</h3><p>Versiones definitivas de calidad profesional, gratis para todo el mundo y para siempre. Y cuantos más seamos, más juegos podrán recorrer el mismo camino.</p></li>
   </ol>
   <p class="cierre">Cada aportación, por pequeña que sea, acerca un poco más a que un clásico olvidado suene en castellano como siempre debió sonar. <b>No es un café: es formar parte de rescatar estos juegos para todos los que vienen detrás.</b></p>
-  <div class="acciones"><a class="boton-kofi grande" data-kofi href="#apoyar">☕ Quiero ayudar en Ko-fi</a></div>
+  <p class="enlace-centro"><a href="#apoyar">Cómo puedes ayudar →</a></p>
 </section>
 
 <section id="juegos">
+  <p class="rotulo">Catálogo</p>
   <h2>Juegos traducidos</h2>
 
   <article class="juego" id="namco-x-capcom">
@@ -73,6 +78,7 @@
         <li>Basada en el parche inglés de TransGen (con su crédito)</li>
       </ul>
       <p class="necesitas"><b>Necesitas:</b> la versión japonesa (SLPS-25505) con el parche inglés de TransGen, en <code>.iso</code> o <code>.chd</code>.</p>
+          <div class="descargas" data-juego="namco-x-capcom" data-tam="5 MB"></div>
     </div>
   </article>
 
@@ -134,6 +140,7 @@
 </section>
 
 <section id="instalar" class="pasos">
+  <p class="rotulo">Instalación</p>
   <h2>Cómo instalar un parche</h2>
   <ol>
     <li><b>Descarga</b> el parche de tu juego: <em>Windows</em> o <em>Linux / Steam Deck</em>.</li>
@@ -153,6 +160,7 @@
 </section>
 
 <section id="preguntas" class="preguntas">
+  <p class="rotulo">Dudas</p>
   <h2>Preguntas frecuentes</h2>
   <details><summary>¿Es legal?</summary><p>Aquí solo se distribuyen <b>parches</b>: programas que modifican tu propia copia del juego. No se ofrece ningún juego ni archivo con contenido de las compañías. Necesitas tener tu copia.</p></details>
   <details><summary>¿Cómo se hacen las traducciones?</summary><p>Son traducciones <b>hechas con inteligencia artificial</b>: un modelo de IA prepara el borrador y otro lo revisa y corrige línea a línea, con un glosario y unas normas de estilo para que suene natural y respete a cada personaje. Lo demás se hace a medida para cada juego: fuentes con tildes y eñes, gráficos redibujados, vídeos subtitulados, reinserción del texto y pruebas en emulador y en consola portátil.</p></details>
