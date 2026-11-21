@@ -45,7 +45,11 @@ code { background: rgba(255, 255, 255, .06); padding: 1px 6px; border-radius: 6p
 .cabecera nav { display: flex; align-items: center; gap: 26px; flex-wrap: wrap; }
 .cabecera nav a { color: var(--suave); font-weight: 500; font-size: .95rem; }
 .cabecera nav a:hover { color: var(--texto); text-decoration: none; }
-.cabecera nav .nav-apoyar { color: var(--acento); }
+.cabecera nav .nav-apoyar {
+  color: #fff; background: linear-gradient(135deg, #ff7a45, #ff5e5b); padding: 8px 18px; border-radius: 999px;
+  font-weight: 700; box-shadow: 0 4px 18px rgba(255, 94, 91, .35); transition: transform .15s, box-shadow .15s;
+}
+.cabecera nav .nav-apoyar:hover { color: #fff; transform: translateY(-1px); box-shadow: 0 6px 24px rgba(255, 94, 91, .5); }
 
 /* Estructura */
 main { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
