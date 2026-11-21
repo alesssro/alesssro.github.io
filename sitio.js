@@ -23,6 +23,7 @@ document.querySelectorAll(".descargas").forEach((caja) => {
   caja.innerHTML =
     `<a class="boton descarga" href="${url(j.win)}">⬇ Windows${tam}</a>` +
     `<a class="boton descarga secundario" href="${url(j.linux)}">⬇ Linux / Steam Deck${tam}</a>` +
+    `<a class="mini" href="${url(j.win.replace(".exe", ".xdelta"))}">Parche .xdelta</a>` +
     `<a class="mini" href="${base}/releases/tag/${j.tag}">Notas de la versión</a>`;
 });
 
