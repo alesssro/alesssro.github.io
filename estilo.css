@@ -107,3 +107,9 @@ h3 { font-size: 1.6rem; margin: 6px 0 10px; }
   .cabecera { padding: 10px 14px; }
   .cabecera nav a:not(.boton-kofi) { display: none; }
 }
+
+.proyecto .entradilla { max-width: 860px; margin: 0 auto 26px; text-align: center; }
+.proyecto h2 { text-align: center; }
+.proyecto li h3 { margin: 0 0 6px; }
+.proyecto .cierre { max-width: 820px; margin: 26px auto 18px; text-align: center; font-size: 1.08em; }
+.proyecto .acciones { display: flex; justify-content: center; }
