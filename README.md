@@ -4,4 +4,4 @@ Web de [Traducciones Alesssro](https://alesssro.github.io/): traducciones al cas
 
 Los parches se descargan desde las [Releases](https://github.com/alesssro/alesssro.github.io/releases) de este repositorio. Solo se distribuyen parches: necesitas tu propia copia del juego.
 
-¿Te gustan? Pronto podrás apoyar el proyecto con una donación.
+¿Te gustan? Puedes apoyar el proyecto en [Ko-fi](https://ko-fi.com/alesssro).

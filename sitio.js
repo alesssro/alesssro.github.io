@@ -2,7 +2,7 @@
 const CFG = {
   github: "alesssro",
   repo: "alesssro.github.io",          // el mismo repositorio sirve la web (GitHub Pages) y los parches (Releases)
-  kofi: "",                            // usuario de Ko-fi (ko-fi.com/<usuario>); vacío = botones ocultos
+  kofi: "alesssro",                    // usuario de Ko-fi (ko-fi.com/<usuario>); vacío = botones ocultos
   // juego -> etiqueta del release y nombres de los archivos subidos
   juegos: {
     "namco-x-capcom": { tag: "namco-x-capcom-v1.0", win: "Parche-Namco-x-Capcom-Espanol.exe", linux: "Parche-Namco-x-Capcom-Espanol-Linux-SteamDeck" },
