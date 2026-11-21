@@ -2,7 +2,7 @@
 const CFG = {
   github: "alesssro",
   repo: "alesssro.github.io",          // el mismo repositorio sirve la web (GitHub Pages) y los parches (Releases)
-  kofi: "alesssro",                    // usuario de Ko-fi (ko-fi.com/<usuario>)
+  kofi: "",                            // usuario de Ko-fi (ko-fi.com/<usuario>); vacío = botones ocultos
   // juego -> etiqueta del release y nombres de los archivos subidos
   juegos: {
     "namco-x-capcom": { tag: "namco-x-capcom-v1.0", win: "Parche-Namco-x-Capcom-Espanol.exe", linux: "Parche-Namco-x-Capcom-Espanol-Linux-SteamDeck" },
@@ -26,8 +26,11 @@ document.querySelectorAll(".descargas").forEach((caja) => {
     `<a class="mini" href="${base}/releases/tag/${j.tag}">Notas de la versión</a>`;
 });
 
-// Ko-fi y página de avisos
-document.querySelectorAll("[data-kofi]").forEach((a) => {
+// Ko-fi (si aún no hay cuenta, se ocultan los botones y la sección de apoyo) y página de avisos
+if (!CFG.kofi) {
+  document.querySelectorAll("[data-kofi], #apoyar").forEach((e) => (e.style.display = "none"));
+}
+if (CFG.kofi) document.querySelectorAll("[data-kofi]").forEach((a) => {
   a.href = `https://ko-fi.com/${CFG.kofi}`;
   a.target = "_blank";
   a.rel = "noopener";
