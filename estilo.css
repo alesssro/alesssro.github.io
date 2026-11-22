@@ -180,3 +180,4 @@ h3 { font-size: 1.45rem; margin: 8px 0 10px; font-weight: 600; }
   .cabecera { padding: 10px 16px; }
   .cabecera nav a:not(.nav-apoyar) { display: none; }
 }
+.ver-yt { grid-column: 1 / -1; margin: -2px 0 4px; text-align: center; font-weight: 600; font-size: .92rem; }
