@@ -5,7 +5,7 @@ const CFG = {
   kofi: "alesssro",                    // usuario de Ko-fi (ko-fi.com/<usuario>); vacío = botones ocultos
   // juego -> etiqueta del release y nombres de los archivos subidos
   juegos: {
-    "namco-x-capcom": { tag: "namco-x-capcom-v1.1", win: "Parche-Namco-x-Capcom-Espanol.exe", linux: "Parche-Namco-x-Capcom-Espanol-Linux-SteamDeck" },
+    "namco-x-capcom": { tag: "namco-x-capcom-v1.2", win: "Parche-Namco-x-Capcom-Espanol.exe", linux: "Parche-Namco-x-Capcom-Espanol-Linux-SteamDeck" },
     "stella-deus":    { tag: "stella-deus-v1.1",    win: "Parche-Stella-Deus-Espanol.exe",    linux: "Parche-Stella-Deus-Espanol-Linux-SteamDeck" },
     "vandal-hearts":  { tag: "vandal-hearts-v1.0",  win: "Parche-Vandal-Hearts-Espanol.exe",  linux: "Parche-Vandal-Hearts-Espanol-Linux-SteamDeck" },
     "eternal-eyes":   { tag: "eternal-eyes-v1.0",   win: "Parche-Eternal-Eyes-Espanol.exe",   linux: "Parche-Eternal-Eyes-Espanol-Linux-SteamDeck" },
