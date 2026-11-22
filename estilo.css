@@ -109,6 +109,7 @@ h3 { font-size: 1.45rem; margin: 8px 0 10px; font-weight: 600; }
 .galeria { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; align-content: start; }
 .galeria img { border-radius: 10px; cursor: zoom-in; width: 100%; height: auto; image-rendering: pixelated; box-shadow: 0 8px 24px rgba(0, 0, 0, .35); }
 .galeria img:first-child { grid-column: 1 / -1; }
+.galeria video { grid-column: 1 / -1; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 8px 24px rgba(0, 0, 0, .35); background: #000; }
 .ficha h3 { margin-top: 14px; }
 .ficha > p { color: var(--suave); }
 .etiquetas { display: flex; gap: 8px; flex-wrap: wrap; margin: 0; }
