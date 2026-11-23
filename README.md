@@ -6,4 +6,4 @@ Los parches se descargan desde las [Releases](https://github.com/alesssro/alesss
 
 ¿Te gustan? ☕ **Ayúdanos a traducir más videojuegos en [Ko-fi](https://ko-fi.com/alesssro).**
 
-Síguenos: [Web](https://alesssro.github.io/) · [YouTube](https://www.youtube.com/@TraduccionesAlesssro) · [TikTok](https://www.tiktok.com/@traduccionesalesssro)
+Síguenos: [Web](https://alesssro.github.io/) · [YouTube](https://www.youtube.com/@TraduccionesAlesssro) · [TikTok](https://www.tiktok.com/@traduccionesalesssro) · [Instagram](https://www.instagram.com/traduccionesalesssro/)
