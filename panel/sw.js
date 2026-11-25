@@ -1,4 +1,4 @@
-const CACHE="panel-alesssro-v2";
+const CACHE="panel-alesssro-v3";
 const BASE=["./","index.html","manifest.webmanifest","icono-192.png","icono-512.png","icono-mask-192.png","icono-mask-512.png"];
 self.addEventListener("install",e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(BASE)).then(()=>self.skipWaiting()))});
 self.addEventListener("activate",e=>{e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==CACHE).map(x=>caches.delete(x)))).then(()=>self.clients.claim()))});
