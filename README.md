@@ -10,7 +10,7 @@ Web: **[alesssro.github.io](https://alesssro.github.io/)**
 |---|---|---|---|
 | Stella Deus: The Gate of Eternity | PS2 | Traducción completa **y doblaje al español** | [v1.1](https://github.com/alesssro/alesssro.github.io/releases/tag/stella-deus-v1.1) |
 | Knights in the Nightmare | Nintendo DS | Traducción completa | [v1.0](https://github.com/alesssro/alesssro.github.io/releases/tag/knights-in-the-nightmare-v1.0) |
-| Namco x Capcom | PS2 | Traducción completa | [v1.2](https://github.com/alesssro/alesssro.github.io/releases/tag/namco-x-capcom-v1.2) |
+| Namco x Capcom | PS2 | Traducción completa | [v1.3](https://github.com/alesssro/alesssro.github.io/releases/tag/namco-x-capcom-v1.3) |
 | Vandal Hearts | PS1 | Traducción completa | [v1.0](https://github.com/alesssro/alesssro.github.io/releases/tag/vandal-hearts-v1.0) |
 | Eternal Eyes (versión americana) | PS1 | Traducción completa | [v1.0](https://github.com/alesssro/alesssro.github.io/releases/tag/eternal-eyes-v1.0) |
 
