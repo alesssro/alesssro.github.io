@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🗳️ Proponer o votar el próximo juego
+    url: https://github.com/alesssro/alesssro.github.io/discussions
+    about: Las propuestas de juegos y las votaciones van en Discussions.
+  - name: ☕ Apoyar en Ko-fi
+    url: https://ko-fi.com/alesssro
+    about: Cada aportación va a actores de voz reales y revisión de traductores profesionales.

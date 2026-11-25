@@ -1,0 +1,50 @@
+name: 🐞 Reportar una errata
+description: Un texto mal traducido, una falta, un texto que se sale del recuadro, un fallo del parche...
+title: "[Errata] "
+labels: ["errata"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ¡Gracias por ayudar a mejorar la traducción! Cuanto más detalle, antes se arregla.
+  - type: dropdown
+    id: juego
+    attributes:
+      label: Juego
+      options:
+        - Stella Deus (PS2)
+        - Knights in the Nightmare (DS)
+        - Namco x Capcom (PS2)
+        - Vandal Hearts (PS1)
+        - Eternal Eyes (PS1)
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versión del parche
+      placeholder: "Ej.: 1.1"
+  - type: input
+    id: donde
+    attributes:
+      label: ¿Dónde aparece?
+      placeholder: "Ej.: capítulo 3, diálogo con Linea antes del combate"
+    validations:
+      required: true
+  - type: textarea
+    id: que
+    attributes:
+      label: ¿Qué pasa y cómo debería ser?
+      placeholder: "Pon el texto tal como sale y, si puedes, cómo lo dirías tú."
+    validations:
+      required: true
+  - type: textarea
+    id: captura
+    attributes:
+      label: Captura de pantalla (opcional)
+      description: Arrastra aquí la imagen.
+  - type: input
+    id: emulador
+    attributes:
+      label: Emulador o consola
+      placeholder: "Ej.: PCSX2 en Steam Deck, DuckStation, melonDS..."
